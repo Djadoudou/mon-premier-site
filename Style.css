@@ -95,3 +95,22 @@ img {
 .apropos-container p {
     margin: 0;
 }
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 1.4rem;
+}
+
+footer a:hover {
+    color: #5dade2;
+}
+
+footer i {
+    vertical-align: middle;
+}
