@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mon Premier Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <a href="MonSite.html">Accueil</a> |
+            <a href="contact.html">Écrivez-moi</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Écrivez-moi</h2>
+            <form class="contact-form">
+                <label for="name">Votre nom</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Retour au site : <a href="MonSite.html">Accueil</a></p>
+    </footer>
+</body>
+</html>
