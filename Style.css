@@ -70,3 +70,28 @@ footer a {
     font-weight: bold;
 }
 
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+
+.apropos-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;          /* espace entre l'image et le texte */
+    margin-top: 20px;
+}
+
+.profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    object-fit: cover;  /* recadre proprement dans le cercle */
+}
+
+.apropos-container p {
+    margin: 0;
+}
